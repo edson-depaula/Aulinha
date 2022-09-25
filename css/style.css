@@ -128,4 +128,11 @@ section {
 
 .footer h2 {
   color: white;
+  text-align: center;
+}
+
+.footer h3 {
+  color: bisque;
+  text-align: center;
+  line-height: 25px;
 }
