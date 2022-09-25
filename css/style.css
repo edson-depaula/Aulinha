@@ -52,11 +52,11 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: #111;
+  background-color: rgb(0, 43, 56);
 }
 
 .active {
-  background-color: #7e0e0e;
+  background-color: #00179c;
 }
 
 section {
@@ -117,9 +117,9 @@ section {
 }
 
 .footer {
-  padding: 20px;
+  padding: 25px;
   text-align: center;
-  background: #333;
+  background: rgb(71, 71, 71);
   bottom: 0;
   left: 0;
   position: fixed;
