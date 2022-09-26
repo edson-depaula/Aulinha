@@ -80,9 +80,9 @@ section {
 }
 
 .p-text {
-  font-family: 'Inter', sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: rgb(39, 39, 39);
-  font-size: 16px;
+  font-size: larger;
   margin-top: 0;
   margin-bottom: 15px;
   display: block;
@@ -99,10 +99,13 @@ section {
 
 .h2-title {
   margin: 7px;
+  text-decoration: solid;
 }
 
 .p-text {
   margin: 10px;
+  text-align: center;
+  text-emphasis-style: initial;
 }
 
 .p-text2 {
@@ -132,7 +135,7 @@ section {
 }
 
 .footer h3 {
-  color: bisque;
+  color: rgb(254, 253, 253);
   text-align: center;
   line-height: 25px;
 }
