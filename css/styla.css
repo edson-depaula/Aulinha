@@ -1,0 +1,137 @@
+@import url('https://fonts.google.com/specimen/Oxygen?category=Sans+Serif,Display,Handwriting,Monospace');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.imagemnotopo {
+  width: 100%;
+  height: 35%;
+	min-height: 150px;
+  background-image: url("https://images2.alphacoders.com/749/74900.jpg");
+	background-size: cover;
+  background-position: center;
+	display: flex;
+	flex-direction: column;
+	position: relative
+}
+
+.imgontop {
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.imgontop img {
+  width: 15%;
+  height: auto;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 45px;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+}
+
+section {
+  padding: 12px;
+}
+
+.h2-title {
+  color: black;
+  font-size: 24px;
+  margin: 0;
+  font-weight: 500;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.25em;
+  letter-spacing: 0.02em;
+  display: block;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.p-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(39, 39, 39);
+  font-size: larger;
+  margin-top: 0;
+  margin-bottom: 15px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.container {
+  display: flex;
+  position: relative;
+}
+
+.h2-title {
+  margin: 7px;
+  text-decoration: solid;
+}
+
+.p-text {
+  margin: 5%;
+  text-align: center;
+  text-emphasis-style: initial;
+}
+
+.p-text2 {
+  margin: 10px;
+}
+
+.imghobbies {
+  margin: 0;
+  width: 500px;
+  height: 408px;
+  display: block;
+}
+
+.footer {
+  padding: 25px;
+  text-align: center;
+  background: rgb(71, 71, 71);
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.footer h2 {
+  color: white;
+  text-align: center;
+}
+
+.footer h3 {
+  color: rgb(254, 253, 253);
+  text-align: center;
+  line-height: 25px;
+}
+
+.botao {
+  text-align: center;
+  object-position: center;
+  text-decoration: underline;
+}
+
+.btn {
+  color: white;
+  border: none;
+  background-color: rgb(255, 202, 55);
+  padding: 20px;
+  border-radius: 20px;
+  width: 10%;
+}
